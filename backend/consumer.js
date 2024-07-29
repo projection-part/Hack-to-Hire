@@ -13,10 +13,10 @@ const mongoUri = "mongodb://127.0.0.1:27017";
 const dbName = "flightDB";
 const client = new MongoClient(mongoUri);
 
-const accountSid = 'ACe0cf6f6a24bf323b1d2081e8cf6d3e12';
+const Sid = 'ACe0cf6f6a24bf323b1d2081e8cf6d3e12';
 const authToken = '22cf8f293ccb41dc9387114e5f7c6c2f';
 
-const twilioClient = twilio("accountSid", "authToken");
+const twilioClient = twilio("Sid", "authToken");
 
 async function sendNotification(notification) {
   switch (notification.method) {
