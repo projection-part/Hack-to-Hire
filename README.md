@@ -1,12 +1,23 @@
 # Hack-to-Hire
 ## Prerequisite
-- Knowledge
-  - Node.JS Intermediate level
-  - Experience with designing distributed systems
+- Used technology
+  - Frontend: HTML, CSS, Javascript, React.js
+  - Backend: Node.js, mongoDB
+  - Notification: Kafka
 - Tools
   - Node.js: [Download Node.JS](https://nodejs.org/en)
   - Docker: [Download Docker](https://www.docker.com)
   - VsCode: [Download VSCode](https://code.visualstudio.com)
+
+- Used Library
+  - kafkajs
+  - nodemailer
+  - twilio
+  - express
+  - cors
+  - mongodb
+  - axios
+  - react-bootstrap
 
 ## Commands to run Docker and Kafka
 - Start Zookeeper Container and expose PORT `2181`.
